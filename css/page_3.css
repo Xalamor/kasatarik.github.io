@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    scroll-behavior:smooth;
+}
+
+li a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.text_box_title{
+    background-color: #202020;
+    color: white;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: regular;
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    z-index: 6;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_box_title_1{
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: regular;
+    position: relative;
+    z-index: 6;
+    margin-top: 20px;
+    height: 45px;
+    width: 150px;
+}
+
+.text_box_title_2{
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: regular;
+    position: relative;
+    z-index: 6;
+    height: 45px;
+    margin-left: 184px;
+    margin-top: 20px;
+}
+
+.text_box_title_3{
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: regular;
+    position: relative;
+    z-index: 6;
+    height: 45px;
+    margin-left: 184px;
+    margin-top: 20px;
+}
+
+.text_box_title_4{
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: regular;
+    position: relative;
+    z-index: 6;
+    height: 45px;
+    margin-left: 184px;
+    margin-top: 20px;
+}
+
+
+.sakura_icon{
+    background-image: url(../images/icons/sakura_icon\ .png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 59px;
+    height: 59px;
+    margin-left: 30px;
+    margin-top: 7px;
+    position: fixed;
+    scale: 1;
+    transition: 0.1;
+    z-index: 7;
+}
+
+.sakura_icon:hover {
+    animation: rot;
+    animation-duration: 0.5s;
+    transition: 0.1;
+}
+
+@keyframes rot {
+    0% {
+      transform: rotate(0deg);
+      scale: 1.1;
+    }
+    100% {
+      transform: rotate(360deg);
+      scale: 1;
+    }
+  }
+
+.black_background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+}
+
+.wall_black {
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: #202020;
+    background-size: cover;
+}
+
+.text_word_white {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 141px;
+    margin-left: 491px;
+}
+
+.text_word_line {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 491px;
+}
+
+.photos {
+    display: flex;
+}
+
+.photo_1 {
+    background-image: url(../images/FIR_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 360px;
+    margin-top: 50px;
+    margin-left: 475px;
+}
+
+.photo_2 {
+    background-image: url(../images/FFIR_2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 360px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.photo_3 {
+    background-image: url(../images/FFIR_3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 360px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.white_text_box {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    margin-top: 35px;
+    margin-left: 491px;
+    line-height: 25px;
+    width: 845px;
+}
+.wall_pink {
+    justify-content: center;
+    width: 100vmax;
+    display: flex;
+    align-items: center;
+    background-color:#E8D1D1;
+    background-size: cover;
+}
+
+.pink_background_7 {
+    background-color:#E8D1D1;
+    background-repeat: no-repeat;
+    height: 527px;
+    width: 1920px;
+}
+
+.black_text_1 {
+    color: black; 
+    font-size: 18px;
+    font-family: Montserrat;
+    position: relative;
+    top: 114px;
+    left: 178px;
+    width: 400px;
+}
+
+.icons_end {
+    display: flex;
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 136px;
+}
+
+.icon_tg {
+    background-image: url(../images/icons/tg-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    scale: 1;
+    transition: 0.2s;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.icon_tg:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.icon_inst {
+    background-image: url(../images/icons/inst-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 30px;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.icon_inst:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.icon_vk {
+    background-image: url(../images/icons/vs-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 30px;
+    scale: 1;
+    transition: 0.2s;
+}
+.icon_vk:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.icon_twit {
+    background-image: url(../images/icons/twit-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 30px;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.icon_twit:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.black_text_box_3 {
+    color: black;
+    font-family: 18px;
+    font-family: Montserrat;
+    position: absolute;
+    margin-left: 1480px;
+    margin-top: 142px;
+
+}
+
+.japan_picture {
+    background-image: url(../images/japan_picture.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 858px;
+    height: 468px;
+    position: relative;
+    top: 23px;
+    left: 535px;
+    transition: 0.2s;
+    scale: 1;
+}
+
+.black_text {
+    font-size: 18px;
+    color: black;
+    position: relative;
+    margin-left: 0px ;
+    font-family: Montserrat;
+    top:25px;
+}
+
+ul.black_text li {
+    display: inline;
+    margin-left:81px;
+}
+
+.black_text li{
+    transition: 0.2s;
+    scale: 1;
+}
+
+.black_text li:hover{
+    transition: 0.2s;
+    scale: 1.1;
+}
+
+.pink_background_8 {
+    background-color: #DCB7B7;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}
