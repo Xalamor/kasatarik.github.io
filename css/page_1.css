@@ -23,26 +23,6 @@ p {
 
 /* HEADER */
 
-
-.sakura_icon{
-    background-image: url(../images/icons/sakura_icon\ .png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 59px;
-    height: 59px;
-    scale: 1;
-    transition: 0.1;
-    position: absolute;
-    margin-top: 8px;
-    margin-left: 25px;
-}
-
-.sakura_icon:hover {
-    animation: rot;
-    animation-duration: 0.5s;
-    transition: 0.1;
-}
-
 @keyframes rot {
     0% {
       transform: rotate(0deg);
