@@ -62,7 +62,9 @@
     .container{
        max-width: 1068px;
     }
-
+    .sakura_icon{
+         background-image: url('/images/icons/sakura_icon_black.png');
+     }
     .nav-list {
         display: none;
     }
