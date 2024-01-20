@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    scroll-behavior:smooth;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.black_background {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #202020;
+}
+
+.text_white {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    top: 141px;
+    margin-left: 491px;
+    width: 800px;
+    h1 {
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+}
+
+.white_text_box {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin: 201px auto 0px auto;
+    width: 720px;
+}
+
+.white_word_1 {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 180px;
+    margin-left: 491px;
+    width: 300px;
+}
+
+.button {
+    display: flex;
+}
+
+.pink_button_1 {
+    background-color:#B45656;
+    width: 162px;
+    height: 48px;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-left: 491px;
+    margin-top: 54px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.pink_button_1:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.pink_button_2 {
+    background-color:#B45656;
+    width: 162px;
+    height: 48px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-left: 59px;
+    margin-top: 54px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.pink_button_2:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.pink_button_3_sp {
+    background-color:#B45656;
+    width: 162px;
+    height: 48px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-left: 59px;
+    margin-top: 54px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.pink_button_3_sp:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.pink_button_4 {
+    background-color:#B45656;
+    width: 162px;
+    height: 48px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-left: 59px;
+    margin-top: 54px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.pink_button_4:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.white_word_2 {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin: 50px auto 0px auto;
+    margin-left: 491px;
+}
+
+.form {
+    width: 850px;
+    height: 220px;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-left: 491px;
+    margin-top: 54px;
+    border: 2px solid white;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: Motserrat;
+    font-size: 20px;
+}
+
+
+
+input[type="search"]::-webkit-input-placeholder {
+    color: #555050;
+    transform: translateY(0%);
+   } 
+input[type="search"]::-moz-placeholder {
+    color: #555050;
+    transform: translateY(0%);
+   }
+
+.white_word_3 {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 61px;
+    margin-left: 491px;
+}
+
+.places {
+    display: flex;
+}
+.nameplace {
+    width: 390px;
+    height: 67px;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 491px;
+    border: 2px solid white;
+}
+
+.emalplace {
+    width: 390px;
+    height: 67px;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 60px;
+    border: 2px solid white;
+}
+
+.pink_button_5 {
+    background-color:#B45656;
+    width: 390px;
+    height: 74px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-left: 727px;
+    margin-top: 54px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.pink_button_5:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.white_text_box_2 {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 18px;
+    margin-left: 530px;
+    text-align: center;
+    width: 800px;
+}
+
+.white_text_box_3 {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 38px;
+    margin-left: 750px;
+    width: 390px;
+    padding-bottom: 25px;
+}
+
+.icons {
+    display: flex;
+}
+.icon_1 {
+    background-image: url(../images/icons/tg-icon_2.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 792px;
+    position: relative;
+}
+.icon_2 {
+    background-image: url(../images/icons/vk-icon_2.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 55px;
+    position: relative;
+}
+.icon_3 {
+    background-image: url(../images/icons/emal-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 55px;
+    position: relative;
+    scale: 1;
+    transform: 0.2s;
+}

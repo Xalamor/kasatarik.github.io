@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    scroll-behavior:smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1880px;
+    margin: 0px auto; 
+    padding: 0 25px;
+    height: inherit;
+}
+
+
+.black_background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #202020;
+}
+
+.black_background_2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.white_word {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 568px;
+    width: 300px;
+    margin-bottom: 130px;
+    p {
+        font-size: 16px;
+        font-family: Montserrat;
+        color: white;
+        width: 610px;
+        padding-top: 15px;
+    }
+}
+
+.white_line {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 568px;
+    bottom: 45px;
+    line-height: 25px;
+    width: 550px;
+}
+.white_line_1 {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 160px;
+    margin-left: 568px;
+    bottom: 25px;
+    line-height: 25px;
+    width: 550px;
+}
+
+.white_line li {
+    margin-left: 20px;
+}
+
+.button_1 {
+    background-color: #B45656;
+    width: 695px;
+    height: 44px;
+    margin-top: 5px;
+    margin-left: 568px;
+    position: relative;
+    padding-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+.burger_1 {
+    margin-left: 568px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    width: 695px;
+    overflow: hidden;
+    max-height: 0;
+    line-height: 35px;
+    transition: 0.3s;
+}
+
+.white_word_2 {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 568px;
+    margin-bottom: 25px;
+}
+
+
+.wall_pink {
+    justify-content: center;
+    width: 100vmax;
+    display: flex;
+    align-items: center;
+    background-color:#E8D1D1;
+    background-size: cover;
+}
+
+.pink_background_7 {
+    background-color:#E8D1D1;
+    background-repeat: no-repeat;
+    height: 527px;
+    width: 1920px;
+}
+
+.black_text_1 {
+    color: black; 
+    font-size: 18px;
+    font-family: Montserrat;
+    position: relative;
+    top: 114px;
+    left: 178px;
+    width: 400px;
+}
+
+.icons_end {
+    display: flex;
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 136px;
+}
+
+.icon_tg {
+    background-image: url(../images/icons/tg-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    scale: 1;
+    transition: 0.2s;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.icon_tg:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.icon_inst {
+    background-image: url(../images/icons/inst-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 30px;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.icon_inst:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.icon_vk {
+    background-image: url(../images/icons/vs-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 30px;
+    scale: 1;
+    transition: 0.2s;
+}
+.icon_vk:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.icon_twit {
+    background-image: url(../images/icons/twit-icon.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 30px;
+    scale: 1;
+    transition: 0.2s;
+}
+
+.icon_twit:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.black_text_box_3 {
+    color: black;
+    font-family: 18px;
+    font-family: Montserrat;
+    position: absolute;
+    margin-left: 1480px;
+    margin-top: 142px;
+
+}
+
+.japan_picture {
+    background-image: url(../images/japan_picture.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 858px;
+    height: 468px;
+    position: relative;
+    top: 23px;
+    left: 535px;
+    transition: 0.2s;
+    scale: 1;
+}
+
+.black_text {
+    font-size: 18px;
+    color: black;
+    position: relative;
+    margin-left: 0px ;
+    font-family: Montserrat;
+    top:25px;
+}
+
+ul.black_text li {
+    display: inline;
+    margin-left:81px;
+}
+
+.black_text li{
+    transition: 0.2s;
+    scale: 1;
+}
+
+.black_text li:hover{
+    transition: 0.2s;
+    scale: 1.1;
+}
+
+.pink_background_8 {
+    background-color: #DCB7B7;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}

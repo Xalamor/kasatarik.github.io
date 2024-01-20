@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url(../css/footer_header.css);
+
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    scroll-behavior:smooth;
+}
+
+
+.white_word {
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 163px;
+    margin: 0px auto;
+    width: 100px;
+}
+
+.white_text_box {
+    font-size: 16px; 
+    color: white;
+    position: relative;
+    top: 195px;
+    margin: 0px auto;
+    width: 1020px;
+    line-height: 35px;
+    text-align: center;
+    width: 436px;
+}
+
+.bunners {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    position: relative;
+    margin-top: 230px;
+}
+
+.bunner_1 {
+    background-image: url(../images/bunner_7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_1:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_2 {
+    background-image: url(../images/bunner_8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_2:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_3 {
+    background-image: url(../images/bunner_9.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_3:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_4 {
+    background-image: url(../images/bunner_10.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_4:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_5 {
+    background-image: url(../images/bunner_11.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_5:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_6 {
+    background-image: url(../images/bunner_12.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_6:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_7 {
+    background-image: url(../images/bunner_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_7:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_8 {
+    background-image: url(../images/bunner_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_8:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_9 {
+    background-image: url(../images/bunner_3.1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_9:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_10 {
+    background-image: url(../images/bunner_4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_10:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_11 {
+    background-image: url(../images/bunner_5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_11:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_12{
+    background-image: url(../images/bunner_6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 564px;
+    margin: 10px auto ;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.bunner_12:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.bunner_text_1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 4px solid black;
+    font-family: Montserrat;
+    transition: 0.5s;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 564px;
+    height: 100px;
+}
+
+.bunner_1:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+    
+}
+
+.bunner_2:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.bunner_3:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.bunner_4:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.bunner_5:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.bunner_6:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+.bunner_7:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+    
+}
+
+.bunner_8:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.bunner_9:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.bunner_10:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.bunner_11:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.bunner_12:hover .bunner_text_1 {
+    transition: 0.5s; 
+    opacity: 1;
+}
+
+.gray_back{
+    background-color: #202020;
+    background-repeat: no-repeat;
+    position: relative;
+}

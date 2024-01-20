@@ -1,0 +1,19 @@
+@media (max-width: 391px) {
+    .text_word_white, .text_word_line, .photo_1, .white_text_box {
+        margin-left: 0;
+    }
+    .black_background {
+        padding: 0 25px;
+        height: 2100px;
+    }
+    .text_word_white {
+        padding-top: 100px;
+    }
+    .photos {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .photo_1, .photo_2, .photo_3 {
+        margin-left: 0;
+    }
+}
