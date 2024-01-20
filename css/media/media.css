@@ -82,9 +82,7 @@
      .text_box_title{
          background-color: #C36C6C;
      }
-     .sakura_icon{
-         background-image: url(/images/icons/sakura_icon_black.png);
-     }
+     
 
      .second_page_content{
         flex-direction: column;
